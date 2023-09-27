@@ -299,6 +299,18 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+         <distributionManagement>
+    <repository>
+      <id>maven-releases</id>
+      <name>maven-releases</name>
+      <url>http://20.81.235.176:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven-snapshots</id>
+      <name>maven-snapshots</name>
+      <url>http://20.81.235.176:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <properties>
     <cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
@@ -428,17 +440,6 @@
       </properties>
     </profile>
   </profiles>
-       <distributionManagement>
-    <repository>
-      <id>maven-releases</id>
-      <name>maven-releases</name>
-      <url>http://20.81.235.176:8081/repository/maven-releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>maven-snapshots</id>
-      <name>maven-snapshots</name>
-      <url>http://20.81.235.176:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-</distributionManagement>
+     
 
 </project>
