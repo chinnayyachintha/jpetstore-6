@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: ssglearnings/petshop:v1.0.0
+          image: ssglearnings/petshop:v2.0.0
           ports:
             - containerPort: 8080
 ---
