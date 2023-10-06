@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: chinnayya339/petshop:v1.0.0
+          image: chinnayya339/petshop:latest
           ports:
             - containerPort: 8080
 ---
