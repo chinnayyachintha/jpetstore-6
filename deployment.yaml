@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-petshop
-          image: chinnayya339/petshop-1:v3.2.0
+          image: chinnayya339/petshop-1:v3.3.0
           ports:
             - containerPort: 8080
 ---
