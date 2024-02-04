@@ -83,5 +83,5 @@ Perform integration tests for screen transition.
 $ ./mvnw clean verify -P tomcat90
 ```
 ```
-Let's make it
+hi
 ```
